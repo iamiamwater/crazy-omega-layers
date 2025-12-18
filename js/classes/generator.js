@@ -94,7 +94,7 @@ class Generator
 
     getPriceUntil10()
     {
-        return this.currentPrice().mul(1() % 10);
+        return this.currentPrice().mul(1);
     }
 
     buy()
